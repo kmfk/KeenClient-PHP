@@ -10,7 +10,8 @@
     "require": {
         "php": ">=5.3.3",
         "ext-mcrypt": "*",
-        "guzzle/guzzle": "~3.7"
+        "guzzle/common": "v3.8.0",
+        "guzzle/service": "v3.8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "*"

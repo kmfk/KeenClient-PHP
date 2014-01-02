@@ -10,7 +10,6 @@
     "require": {
         "php": ">=5.3.3",
         "ext-mcrypt": "*",
-        "guzzle/common": "v3.8.0",
         "guzzle/service": "v3.8.0"
     },
     "require-dev": {

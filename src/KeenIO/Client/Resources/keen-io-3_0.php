@@ -243,7 +243,8 @@ return array(
                 'timeframe'        => array(
                     'location'    => 'query',
                     'description' => 'A Timeframe specifies the events to use for analysis based on a window of time. If no timeframe is specified, all events will be counted.',
-                    'type'        => 'string',
+                    'type'        => array('string', 'array'),
+                    'filters'     => array('json_encode'),
                     'required'    => false,
                 ),
                 'interval'         => array(
